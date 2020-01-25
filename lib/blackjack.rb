@@ -31,10 +31,10 @@ def initial_round
   sum
 end
 
-def hit?
-  prompt_user
-  p get_user_input
-end
+# def hit?
+#   prompt_user
+#   p get_user_input
+# end
 
 def invalid_command
   puts "Please enter a valid command"
